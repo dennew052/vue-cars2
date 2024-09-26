@@ -126,7 +126,7 @@ watch(filters, fetchItems)
         />
       </div>
       <div class="text-[#293148CC] pl-[30px] pb-96 pt-9 flex justify-between pr-[30px]">
-        <div>Showing 9 out of 256</div>
+        <div>Showing {{ items.meta.to }} out of {{ items.meta.total }}</div>
         <div class="flex">
           <img src="/chevron_down.svg" alt="PageLeft"
                @click="pageDown"
